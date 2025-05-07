@@ -9,7 +9,7 @@ def calculate_stable_time_step(dx, diffusivity):
     return 0.5 * dx **2/ diffusivity
     
 def plot_profile(x,cake, color="r"):
-    """Display the cake profile.""""
+    """Display the cake profile."""
     plt.figure()
     plt.plot(x, cake, color)
     plt.xlabel("x")
